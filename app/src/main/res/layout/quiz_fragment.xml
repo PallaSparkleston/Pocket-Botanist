@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/question_text_view"
+            tools:text="#"
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_question_1"></TextView>
+
+        <LinearLayout
+            android:id="@+id/tf_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone">
+            <Button
+                android:id="@+id/true_button"
+                android:text="True"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></Button>
+
+            <Button
+                android:id="@+id/false_button"
+                android:text="False"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mult_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <RadioGroup
+                android:id = "@+id/multRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/radio_option_1"
+                    android:text="@string/quiz_answer_1_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></RadioButton>
+                <RadioButton
+                    android:id="@+id/radio_option_2"
+                    android:text="@string/quiz_answer_1_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></RadioButton>
+                <RadioButton
+                    android:id="@+id/radio_option_3"
+                    tools:text="#"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+                </RadioButton>
+                <RadioButton
+                    android:id="@+id/radio_option_4"
+                    tools:text="#"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"></RadioButton>
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/next_button"
+                android:text="@string/next_button_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/submit_button"
+                android:text="@string/submit_button_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

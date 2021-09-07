@@ -1,0 +1,34 @@
+<resources>
+
+// Menu Fragment Strings
+    <string name="app_name">Pocket Botanist</string>
+    <string name="quiz_button_label">Take the Quiz!</string>
+    <string name="quiz_again_button_label">Take the Quiz Again</string>
+    <string name="welcome_label">Welcome to Pocket Botanist</string>
+    <string name="plant_catalog_button_label">Plant Catalog</string>
+    <string name="owned_plants_button_label">Owned Plants</string>
+
+
+
+// Quiz Fragment Strings
+    // Questions
+    <string name="quiz_question_1">Do you want to grow an indoor plant or an outdoor plant?</string>
+    <string name="quiz_question_2">What sort of climate will do plants grow in?</string>
+    <string name="quiz_question_3">Do you want a plant for aesthetic or culinary reasons?</string>
+
+    // Answers
+    <string name="quiz_answer_1_1">Outdoor</string>
+    <string name="quiz_answer_1_2">Indoor</string>
+
+    // Extra Button Labels
+    <string name="next_button_label">Next</string>
+    <string name="previous_button_label">Previous</string>
+    <string name="submit_button_label">Submit</string>
+
+
+// Result Fragment Strings
+    <string name="result_title">Results</string>
+    <string name="result_flavor_text">The following plants were added to "Owned Plants":</string>
+
+
+</resources>
